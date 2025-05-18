@@ -17,7 +17,19 @@ A project made to practices Ansible playbook as part of the DevOps course.
 
 <!-- USAGE & STEPS-->
 ## 📋 Usage
-
+1) Clone \ Download the repository:
+```
+git clone https://github.com/mendelsontal/ansible-practice.git
+```
+or
+```
+curl -L -o ansible-shallow-dive.tar.gz https://github.com/mendelsontal/ansible-practice/archive/main/ansible-shallow-dive-main.tar.gz
+tar -xzf ansible-shallow-dive.tar.gz
+```
+2) Run start.sh from /ansible-practice/05_summary_practice/files/
+```
+cd ./ansible-practice/05_summary_practice/files/ ; bash ./start.sh
+```
 
 <!-- CONTRIBUTORS -->
 ## 👥 Contributors
@@ -33,6 +45,7 @@ This project is for personal use and learning. Refer to the [License](./LICENSE)
 <!-- FOLDER STRACTURE -->
 ## 📁 Folder Structure
 <details><summary>Folder Structure</summary>
+
 **📁 <span style="display: inline-block; margin-right: 20px;">[ansible-practice/](./)</span>** Root directory
 - **📂 <span style="display: inline-block; margin-right: 20px;">[05_summary_practice/](05_summary_practice)</span>**
   - **📂 <span style="display: inline-block; margin-right: 20px;">[files/](05_summary_practice/files)</span>**
@@ -44,4 +57,5 @@ This project is for personal use and learning. Refer to the [License](./LICENSE)
 - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](TASK.md)</span>
 - 📄 <span style="display: inline-block; margin-right: 20px;">[.gitignore](.gitignore)</span>
 - 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](LICENSE)</span>
+
 </details>
