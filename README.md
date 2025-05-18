@@ -45,6 +45,7 @@ This project is for personal use and learning. Refer to the [License](./LICENSE)
 <!-- FOLDER STRACTURE -->
 ## 📁 Folder Structure
 <details><summary>Folder Structure</summary>
+
 **📁 <span style="display: inline-block; margin-right: 20px;">[ansible-practice/](./)</span>** Root directory
 - **📂 <span style="display: inline-block; margin-right: 20px;">[05_summary_practice/](05_summary_practice)</span>**
   - **📂 <span style="display: inline-block; margin-right: 20px;">[files/](05_summary_practice/files)</span>**
@@ -56,4 +57,5 @@ This project is for personal use and learning. Refer to the [License](./LICENSE)
 - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](TASK.md)</span>
 - 📄 <span style="display: inline-block; margin-right: 20px;">[.gitignore](.gitignore)</span>
 - 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](LICENSE)</span>
+
 </details>
