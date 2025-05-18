@@ -1,0 +1,28 @@
+############################################################ /ᐠ｡ꞈ｡ᐟ\############################################################
+#Developed by: Tal Mendelson
+#Purpose: Ansible Shallow Dive yaml practice 
+#Date:18/05/2025
+#Version: 0.0.1
+############################################################ /ᐠ｡ꞈ｡ᐟ\ ############################################################
+---
+
+- name: Summary Practice Playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: copy Hello World Shell script
+      copy:
+        content: |
+          #!/bin/bash
+          echo "Hello, world!"
+        dest: /tmp/hello.sh
+        mode: '0755'
+
+
+    - name: Run Hello World script
+      shell: /tmp/hello.sh
+
+
+    - name: Show script output
+      debug:
+        var: hello_result.stdout

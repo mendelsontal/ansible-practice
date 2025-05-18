@@ -91,5 +91,5 @@ cp -pL ../* ./ansible-shallow-dive/03_playbooks/05_summary_practice/ &>/dev/null
 
 docker exec docker-ansible-host-1 bash -c "\
    export ANSIBLE_HOST_KEY_CHECKING=False; \
-   cd ~/ansible_course/03_playbooks/05_summary_practice/; \
+   cd ~/ansible_course/03_playbooks/05_summary_practice; \
    ansible-playbook playbook.yaml -v -b"
