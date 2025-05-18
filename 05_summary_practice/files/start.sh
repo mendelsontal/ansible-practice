@@ -90,7 +90,7 @@ mkdir -p ./ansible-shallow-dive/03_playbooks/05_summary_practice
 cp -pL ../* ./ansible-shallow-dive/03_playbooks/05_summary_practice/ &>/dev/null
 
 pushd ./ansible-shallow-dive/99_misc/setup/docker
-docker compose exec ansible-host bash -c "\
+docker exec docker-ansible-host-1 bash -c "\
    export ANSIBLE_HOST_KEY_CHECKING=False; \
    cd ~/ansible_course/03_playbooks/05_summary_practice; \
    ansible-playbook playbook.yaml -v -b"

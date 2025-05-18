@@ -21,6 +21,7 @@
 
     - name: Run Hello World script
       shell: /tmp/hello.sh
+      register: hello_result
 
 
     - name: Show script output
