@@ -1,7 +1,8 @@
-[![Test](https://img.shields.io/badge/ansible_playbook_practice01-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2))
+[![Ansible](https://img.shields.io/badge/05_summary_practice-8A2BE2)]([https://](https://img.shields.io/badge/ansible_playbook_practice-8A2BE2))
 [![GitHub contributors](https://img.shields.io/github/contributors/mendelsontal/ansible-practice)](https://github.com/mendelsontal/ansible-practice/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/coderjojo/creative-profile-readme)](https://github.com/mendelsontal/ansible-practice/issues)
-![Ansible](https://img.shields.io/badge/Ansible-Automation-000000?style=flat&logo=ansible)
+![Ansible](https://img.shields.io/badge/Ansible-000000?style=flat&logo=ansible)
+
 # Ansible Playbook Summary Practice
 
 <!-- ABOUT THE PROJECT -->
@@ -11,11 +12,12 @@ A project made to practices Ansible playbook as part of the DevOps course.
 
 <!-- PREREQUISITE -->
 ## 🧱 Prerequisite
+- Docker installed on your system
+- Internet Access
 
 <!-- USAGE & STEPS-->
-## 🚀 Usage
+## 📋 Usage
 
-### 📋 Steps:
 
 <!-- CONTRIBUTORS -->
 ## 👥 Contributors
@@ -23,10 +25,23 @@ A project made to practices Ansible playbook as part of the DevOps course.
 
 <!-- LINKS -->
 ## 🌐 Links
-* [Ansible Shallow Dive course](https://gitlab.com/vaiolabs-io/ansible-shallow-dive)
+* [Ansible Shallow Dive](https://gitlab.com/vaiolabs-io/ansible-shallow-dive)
 
 ## 📜 License
 This project is for personal use and learning. Refer to the [License](./LICENSE) for more details.
 
 <!-- FOLDER STRACTURE -->
 ## 📁 Folder Structure
+<details><summary>Folder Structure</summary>
+**📁 <span style="display: inline-block; margin-right: 20px;">[ansible-practice/](./)</span>** Root directory
+- **📂 <span style="display: inline-block; margin-right: 20px;">[05_summary_practice/](05_summary_practice)</span>**
+  - **📂 <span style="display: inline-block; margin-right: 20px;">[files/](05_summary_practice/files)</span>**
+    - 📄 <span style="display: inline-block; margin-right: 20px;">[start.sh](05_summary_practice/files/start.sh)</span>
+  - 📄 <span style="display: inline-block; margin-right: 20px;">[playbook.yaml](05_summary_practice/playbook.yaml)</span>
+  - 📄 <span style="display: inline-block; margin-right: 20px;">[hosts.ini](05_summary_practice/hosts.ini)</span>
+  - 📄 <span style="display: inline-block; margin-right: 20px;">[ansible.cfg](05_summary_practice/ansible.cfg)</span>
+- 📄 <span style="display: inline-block; margin-right: 20px;">[README.md](README.md)</span>
+- 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](TASK.md)</span>
+- 📄 <span style="display: inline-block; margin-right: 20px;">[.gitignore](.gitignore)</span>
+- 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](LICENSE)</span>
+</details>
